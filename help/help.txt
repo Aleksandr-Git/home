@@ -1,0 +1,15 @@
+Это Django
+
+Перезапуск nginx
+sudo /etc/init.d/nginx restart
+Путь для виртуальной среды
+/home/aleksandr/test_1
+Запуск виртуальной среды
+source myvenv_1/bin/activate
+Путь для запуска django
+/home/aleksandr/test_1/project/addressbook
+Запуск django
+python manage.py runserver 0.0.0.0:8000
+Создать новое приложение
+python manage.py startapp "Название приложения"
+
